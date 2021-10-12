@@ -12,21 +12,48 @@
 - Encapsulation:
     - "Encapsulation is a process of hiding data implementation by restricting access to public methods. The instance variables are kept private and the accessor methods(getters and setters) are made public."
 
-## Arrays
+## Data Structures
+
+### Primitive Arrays
 
 #### Split string by the indexes of chars example
 ```String.substring(0,2)```
 
-### Create Arrays
 
 #### Create Primitive Array
 example: ```int[] ages = new int[0]```
 example2: ```int[] ages = new int[]{25,41,28,9}```
 
+### ArrayLists
+
 #### Create ArrayList
+example: ```new ArrayList<>()```
 
 #### Split Array by index
 example: ```String.subList(2,4)```
+
+### Sets
+
+#### Create a Hash Set
+example: ```Set<Integers> uniqueVals = new HashSet<>()```
+
+#### Loop a Hash Set's Values
+example: 
+```
+for (Integer val : uniqueVals) {
+    System.out.println(val)
+}
+```
+
+### Maps
+
+#### Create a Hash Map
+example: ```Map<String, Integer> hashMap = new HashMap<>();```
+
+#### Loop a Hash Map by Keys
+
+## Powerful Utils
+
 
 
 ## Random INT
